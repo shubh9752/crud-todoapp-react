@@ -1,0 +1,93 @@
+
+
+.main-container{
+    text-align: center;
+    color: #fff;
+}
+
+.main-div{
+    width: 100%;
+    height: 100%;
+    overflow-wrap: auto;
+}
+
+/* class for task container Css  */
+.tasksBg {
+     background-color: #99c5e7;
+     font-size: 2rem;
+     position: relative;
+     padding: 10px 140px 10px 15px;
+     border-radius: 2rem 2rem;
+     margin-bottom: 0.2rem;
+     text-align: left;
+    
+}
+.tasksBg  div {
+    display: flex;
+    align-items: center;
+} 
+.tasksBg .done .taskText{
+      
+    opacity: 0.4;
+    text-decoration: line-through;
+}
+
+
+
+
+.task-Count{
+    color: #f44a07;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid #111111;
+    border-radius: 50%;
+    width: 2rem;
+    margin-right: 14px;
+    align-items: center;
+    justify-content: center;
+
+    height: 2rem;
+    display: flex;
+    
+}
+
+
+
+
+/* edit delete marked icons css */
+.tasksBg .icon-Wrap{
+    position: absolute;
+    width: auto;
+    display: inline-block;
+    top: 50%;
+    right: 15px;
+  
+    transform: translateY(-50%);
+ 
+}
+
+.tasksBg .icon-Wrap span{
+    
+    margin: 0px 10px 0 10px;
+    cursor: pointer;
+    display: inline-block;
+    color: #0ea4b1;
+}
+
+.tasksBg .icon-Wrap span:hover {
+    color: rgb(247, 21, 17);
+}
+
+
+
+
+
+/* resposiveness of Small Device */
+@media screen and (max-width : 550px) {
+    .tasksBg .icon-Wrap span{
+        margin: 2px 3px;
+    }
+    .tasksBg{
+        font-size: 14px;
+    }
+}
