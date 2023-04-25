@@ -1,3 +1,10 @@
+This is Todo app where user can perform crud operations.This app is created on react.
+Libraries i used to make this app fontawesomeicon,bootstrap,router dom, loaderspinner
+
+hoisted link: https://crud-todoapp-react.vercel.app/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
